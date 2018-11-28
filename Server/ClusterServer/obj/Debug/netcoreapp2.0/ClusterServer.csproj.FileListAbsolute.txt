@@ -1,0 +1,11 @@
+C:\Users\galnd\source\repos\ClusterServer\ClusterServer\obj\Debug\netcoreapp2.0\ClusterServer.csprojResolveAssemblyReference.cache
+C:\Users\galnd\source\repos\ClusterServer\ClusterServer\obj\Debug\netcoreapp2.0\ClusterServer.csproj.CoreCompileInputs.cache
+C:\Users\galnd\source\repos\ClusterServer\ClusterServer\obj\Debug\netcoreapp2.0\ClusterServer.AssemblyInfoInputs.cache
+C:\Users\galnd\source\repos\ClusterServer\ClusterServer\obj\Debug\netcoreapp2.0\ClusterServer.AssemblyInfo.cs
+C:\Users\galnd\source\repos\ClusterServer\ClusterServer\bin\Debug\netcoreapp2.0\ClusterServer.deps.json
+C:\Users\galnd\source\repos\ClusterServer\ClusterServer\bin\Debug\netcoreapp2.0\ClusterServer.runtimeconfig.json
+C:\Users\galnd\source\repos\ClusterServer\ClusterServer\bin\Debug\netcoreapp2.0\ClusterServer.runtimeconfig.dev.json
+C:\Users\galnd\source\repos\ClusterServer\ClusterServer\bin\Debug\netcoreapp2.0\ClusterServer.dll
+C:\Users\galnd\source\repos\ClusterServer\ClusterServer\bin\Debug\netcoreapp2.0\ClusterServer.pdb
+C:\Users\galnd\source\repos\ClusterServer\ClusterServer\obj\Debug\netcoreapp2.0\ClusterServer.dll
+C:\Users\galnd\source\repos\ClusterServer\ClusterServer\obj\Debug\netcoreapp2.0\ClusterServer.pdb
