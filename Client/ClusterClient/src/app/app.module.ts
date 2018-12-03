@@ -11,14 +11,27 @@ import {
   MatToolbarModule, MatSelectModule, MatGridListModule, MatCardModule,
   MatExpansionModule
 } from '@angular/material';
+import {RouterModule, Routes} from "@angular/router";
+import { HierarchicalComponent } from './hierarchical/hierarchical.component';
+import { KmeansComponent } from './kmeans/kmeans.component';
+import { NgxJsonViewerModule } from 'ngx-json-viewer';
+
+const appRoutes: Routes = [
+  { path: '',   redirectTo: '/kmeans', pathMatch: 'full' },
+  { path: 'hierarchical', component: HierarchicalComponent },
+  { path: 'kmeans', component: KmeansComponent },
+];
 
 
 @NgModule({
   declarations: [
     AppComponent,
-    HomeComponent
+    HomeComponent,
+    HierarchicalComponent,
+    KmeansComponent,
   ],
   imports: [
+    NgxJsonViewerModule,
     BrowserModule,
     HttpClientModule,
     BrowserAnimationsModule,
@@ -26,7 +39,8 @@ import {
     MatToolbarModule,
     MatSelectModule,
     MatGridListModule,
-    MatCardModule
+    MatCardModule,
+    RouterModule.forRoot(appRoutes)
   ],
   providers: [DataService],
   bootstrap: [AppComponent]

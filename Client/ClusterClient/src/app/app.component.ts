@@ -15,42 +15,11 @@ export class AppComponent implements OnInit {
   clusters: Cluster[];
 
   ngOnInit(): void {
-  //  this.showKMeans();
-   // this.showKMeansHalt();
-    this.showHierarchical();
   }
 
   constructor(private dataService: DataService) {}
 
-  showKMeans() {
 
-    this.dataService.getKMeans()
-      .subscribe((data: Centroid[]) =>
-      {
-        console.log(data);
-        this.centroids = data;
-      });
-  }
-
-  showKMeansHalt() {
-
-    this.dataService.getKMeans()
-      .subscribe((data: Centroid[]) =>
-      {
-        console.log(data);
-        this.haltCentroids = data;
-      });
-  }
-
-  showHierarchical() {
-
-    this.dataService.getHierarchicalCluster()
-      .subscribe((data: Cluster[]) =>
-      {
-        console.log(data);
-        this.clusters = data;
-      });
-  }
 
 }
 
